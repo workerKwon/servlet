@@ -11,6 +11,9 @@ import java.util.Enumeration;
 /**
  * 1. 파라미터 전송 기능
  * GET method 쿼리 파라미터
+ * POST method form-data
+ *
+ * request.getParameter로 GET, POST 구분없이 받아서 읽을 수 있다.
  */
 @WebServlet(name = "requestParamServlet", urlPatterns = "/request-param")
 public class RequestParamServlet extends HttpServlet {
